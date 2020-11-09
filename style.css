@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: var(--dark);
+    color: #ffffff;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #2F3640;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin: 10px auto;
+    color: #f1c40f;
+    font-size: 7em;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #0278ae;
+}
+
+.celeste.light {
+    background: #51adcf;
+}
+
+.violeta {
+    background: #ff414d;
+}
+
+.violeta.light {
+    background: #f56a79;
+}
+
+.naranja {
+    background: #f37121;
+}
+
+.naranja.light {
+    background: #ffbd69;
+}
+
+.verde {
+    background: #28df99;
+}
+
+.verde.light {
+    background: #99f3bd;
+}
+
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+
+.hide {
+    display: none;
+}
